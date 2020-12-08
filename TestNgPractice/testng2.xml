@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Testing">
+  <test name="Initial Test">
+    <classes>
+    
+      <class name="comGeeksoft.Day2">
+      <methods>
+	<exclude name="PersonalLoanMiraj"/>
+      </methods>
+      </class>
+      
+      <class name="comGeeksoft.Day3">
+     
+      </class>
+      
+      <class name="comGeeksoft.Day1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regrassion testing">
+  <test name="Smoke">
+  <groups>
+  <run>
+  <include name="Smoke"></include>
+  </run>
+  </groups>
+  
+    <classes>
+      <class name="comGeeksoft.Day1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

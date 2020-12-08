@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6352" started-at="2020-12-07T20:11:09 EST" finished-at="2020-12-07T20:11:16 EST">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day1.Amazon()[pri:0, instance:comGeeksoft.Day1@7791a895]" name="Amazon" class="comGeeksoft.Day1"/>
+        <method signature="Day1.StudentLoanRaisa()[pri:0, instance:comGeeksoft.Day1@7791a895]" name="StudentLoanRaisa" class="comGeeksoft.Day1"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="6352" started-at="2020-12-07T20:11:09 EST" finished-at="2020-12-07T20:11:16 EST">
+      <class name="comGeeksoft.Day1">
+        <test-method status="PASS" signature="Amazon()[pri:0, instance:comGeeksoft.Day1@7791a895]" name="Amazon" duration-ms="6293" started-at="2020-12-07T20:11:09 EST" finished-at="2020-12-07T20:11:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amazon -->
+        <test-method status="PASS" signature="StudentLoanFahim()[pri:0, instance:comGeeksoft.Day1@7791a895]" name="StudentLoanFahim" duration-ms="1" started-at="2020-12-07T20:11:16 EST" finished-at="2020-12-07T20:11:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentLoanFahim -->
+        <test-method status="PASS" signature="StudentLoanRaisa()[pri:0, instance:comGeeksoft.Day1@7791a895]" name="StudentLoanRaisa" duration-ms="2" started-at="2020-12-07T20:11:16 EST" finished-at="2020-12-07T20:11:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentLoanRaisa -->
+      </class> <!-- comGeeksoft.Day1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
