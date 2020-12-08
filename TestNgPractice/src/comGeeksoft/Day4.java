@@ -16,5 +16,9 @@ public class Day4 {
 	public void LoginApiCarLoan() {
 		System.out.println("LoginApi CarLoan");
 	}
+	@Test
+	public void LoginApiBikeLoan() {
+		System.out.println("LoginApi BikeLoan");
+	}
 
 }
